@@ -13,8 +13,7 @@ Soy un **desarrollador web** con enfoque en creatividad, diseño y gestión de p
 
 ### 🎨 Proyectos destacados
 
-- 🛍️ [**Nomall**](https://tu-link.com): Marketplace para emprendedores artísticos.
-- 🖥️ **Optimización en Jumpseller**: Mejorando la performance de tiendas online.
+- 🛍️ [**Nomall**](https://www.nomall.cl/): Marketplace para emprendedores artísticos.
 - 🌐 **Portafolio de una productora audiovisual** con Astro y Tailwind.
 
 ### 📊 Mis estadísticas en GitHub
@@ -29,9 +28,8 @@ Soy un **desarrollador web** con enfoque en creatividad, diseño y gestión de p
 - 🎯 Siempre en busca de nuevos desafíos y conexiones interesantes.
 
 📬 **¿Charlamos?** Encuéntrame en:
-- 🌎 [nomall.cl](https://tu-link.com)
-- 💼 [LinkedIn](https://linkedin.com/in/tuusuario)
-- 📸 [Instagram](https://instagram.com/tuusuario)
+- 💼 [LinkedIn](https://www.linkedin.com/in/luissalamancafer/)
+- 📸 [Instagram](https://www.instagram.com/conde_vrolok/)
 
 ---
 
