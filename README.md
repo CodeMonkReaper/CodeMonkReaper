@@ -1,4 +1,4 @@
-### 👋 Hola, soy [Luis Salamanca]
+### 👋 Hola, soy Luis Salamanca
 
 Soy un **desarrollador web** con enfoque en creatividad, diseño y gestión de procesos. Actualmente, trabajo en proyectos que combinan **tecnología, arte y emprendimiento**, como **Nomall**, una tienda de arte y productora audiovisual. Además, me encanta explorar nuevas tecnologías y optimizar sitios web.
 
