@@ -128,7 +128,6 @@ Backend • Full Stack • Java • Spring Boot • NestJS • AI Assisted Devel
 
 # 🐍 Contribution Snake
 
-> **⚠️ Aparecerá automáticamente cuando configures el workflow `snake.yml`.**
 
 <p align="center">
 
@@ -140,7 +139,6 @@ Backend • Full Stack • Java • Spring Boot • NestJS • AI Assisted Devel
 
 # 📊 GitHub Metrics
 
-> **⚠️ Aparecerá automáticamente cuando configures `metrics.yml`.**
 
 <p align="center">
 
