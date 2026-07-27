@@ -1,0 +1,67 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: dist/github-metrics.svg
+          configs: |
+            base:
+              filename: dist/github-metrics.svg
+            plugin_languages:
+              enabled: true
+              colors:
+                - "#00ADD8"
+                - "#3178C6"
+                - "#e34c26"
+                - "#563d7c"
+                - "#f7df1e"
+                - "#0298c3"
+                - "#384d54"
+            plugin_achievements:
+              enabled: true
+              threshold: A
+            plugin_isocalendar:
+              enabled: true
+              style: github
+            plugin_habits:
+              enabled: true
+              commits: true
+              add_lines: true
+              del_lines: true
+            plugin_repositories:
+              enabled: true
+              limit: 10
+            plugin_stars:
+              enabled: true
+              limit: 5
+            plugin_followup:
+              enabled: true
+            plugin_lines:
+              enabled: true
+            plugin_activity:
+              enabled: true
+            plugin_metadata:
+              enabled: true
+
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

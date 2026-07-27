@@ -1,0 +1,40 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install request
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: CodeMonkReaper
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake-dark.png?color_snake=orange&color_dots=%230d1117,%230e4429,%23006d32,%2326a641,%2339d353
+
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
