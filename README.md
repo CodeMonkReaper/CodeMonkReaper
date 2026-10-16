@@ -1,44 +1,71 @@
-# Luis Salamanca
-**Ingeniero en Informática | Full Stack & DevOps**  
-Concepción, Chile · [LinkedIn](https://linkedin.com/in/luissalamancafer) · [Email](mailto:luis_salamanca@hotmail.cl) · [GitHub](https://github.com/CodeMonkReaper)
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Luis%20Salamanca&fontSize=42&fontAlignY=36&animation=fadeIn"/>
+</p>
+
+<h2 align="center">Ingeniero en Informática · Full Stack & DevOps</h2>
+
+<p align="center">
+  <a href="https://linkedin.com/in/luissalamancafer">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:luis_salamanca@hotmail.cl">
+    <img src="https://img.shields.io/badge/Email-luis__salamanca%40hotmail.cl-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/CodeMonkReaper">
+    <img src="https://img.shields.io/github/followers/CodeMonkReaper?style=flat-square&logo=github&label=Followers" alt="GitHub Followers"/>
+  </a>
+  <img src="https://img.shields.io/badge/Rol-Full_Stack_%40_Pymatica-2ea44f?style=flat-square" alt="Current Role"/>
+</p>
+
+<p align="center">
+  Desarrollador enfocado en arquitectura de software, APIs REST escalables, persistencia relacional y automatización CI/CD.
+</p>
 
 ---
 
-Desarrollador Full Stack con orientación a DevOps y arquitectura de software. Actualmente en **Pymatica**, enfocado en diseño de sistemas bajo **Clean Architecture / DDD**, APIs REST resilientes, modelado de datos relacionales/espaciales y pipelines CI/CD automatizados.
+### 🛠️ Stack Tecnológico
 
-### Stack Principal
-
-- **Backend:** TypeScript (NestJS, Express), Java (Spring Boot), .NET 8 (C# 12), Python (Django)
-- **Bases de Datos:** PostgreSQL, PostGIS, SQLite (WAL), Prisma ORM
-- **DevOps & Cloud:** Docker, Linux, CI/CD (GitHub Actions), Git
-- **Frontend:** Next.js, Angular, React, TailwindCSS
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,java,spring,cs,dotnet,py,postgres,docker,git,githubactions,nextjs,angular,tailwind,linux&theme=dark&perline=8" alt="Tech Stack"/>
+</p>
 
 ---
 
-### Proyectos Clave
+### 🚀 Proyectos Clave
 
-#### [VetBiobío](https://github.com/CodeMonkReaper/vetbiobio) `Next.js 14` `NestJS 10` `PostgreSQL / PostGIS` `Prisma` `Docker`
-Plataforma B2B/B2C con arquitectura monorepo y tipado estricto end-to-end.
-- Geolocalización geoespacial, soporte multi-tenant y auditoría inmutable (`audit_log`).
-- Pipeline CI con **189 tests automatizados** (unitarios y E2E) con 100% de aprobación.
-
-#### [MargenClaro](https://github.com/CodeMonkReaper) `.NET 8` `C# 12` `WPF` `SQLite` `xUnit`
-Motor financiero determinista bajo Clean Architecture y Domain-Driven Design.
-- Aritmética decimal de 128 bits y enteros escalados (x10.000) para eliminar errores de redondeo acumulado.
-- Proyección de tesorería a 13 semanas y verificación automatizada de invariantes contables con xUnit.
-
-#### [SIDEP](https://github.com/CodeMonkReaper) `Node.js` `Angular` `PostgreSQL` `JWT`
-Sistema de gestión y flujo de emergencias en tiempo real.
-- Base de datos relacional normalizada (3FN), autenticación stateless con JWT y suite de pruebas funcionales.
+| Proyecto | Arquitectura & Reto Técnico | Stack | Enlace |
+| :--- | :--- | :--- | :---: |
+| **[VetBiobío](https://github.com/CodeMonkReaper/vetbiobio)** | Monorepo B2B/B2C, geolocalización PostGIS, tipado estricto e-to-e y pipeline CI con **189 tests automatizados** (100% aprobación). | Next.js 14 · NestJS 10 · PostGIS · Prisma · Docker | [Repositorio](https://github.com/CodeMonkReaper/vetbiobio) |
+| **[MargenClaro](https://github.com/CodeMonkReaper)** | Motor financiero determinista con Clean Architecture y DDD. Aritmética decimal de 128 bits y enteros escalados en SQLite (WAL). | .NET 8 · C# 12 · WPF · SQLite · xUnit | [Repositorio](https://github.com/CodeMonkReaper) |
+| **[SIDEP](https://github.com/CodeMonkReaper)** | Plataforma de gestión y despacho de emergencias en tiempo real con modelo 3FN y control de sesiones stateless. | Node.js · Angular · PostgreSQL · JWT | [Repositorio](https://github.com/CodeMonkReaper) |
 
 ---
 
-### Enfoque Técnico
+### ⚙️ Enfoque de Ingeniería
 
-- **Arquitectura & Dominio:** Principios SOLID, bajo acoplamiento y separación estricta de lógica de negocio frente a infraestructura.
-- **Precisión de Datos:** Modelado normalizado, integridad transaccional ACID y optimización de consultas indexadas y espaciales.
-- **Automatización:** Entornos reproducibles con Docker y testing exhaustivo previo a despliegue.
+- **Clean Architecture & DDD:** Desacoplamiento estricto de la lógica de negocio respecto a la infraestructura para garantizar mantenibilidad y alta testabilidad[cite: 1].
+- **Modelado & Integridad:** Esquemas relacionales normalizados (3FN)[cite: 1], indexación geoespacial con PostGIS[cite: 1] y precisión numérica libre de errores de redondeo[cite: 1].
+- **Cultura DevOps:** Entornos estandarizados con Docker[cite: 1] y verificación continua automatizada previa a cada despliegue[cite: 1].
 
 ---
 
-> *"First, solve the problem. Then, write the code."*
+### 📊 Actividad
+
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=CodeMonkReaper&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeMonkReaper&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CodeMonkReaper/CodeMonkReaper/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="80%"/>
+</p>
+
+---
+
+<p align="center">
+  <i>"First, solve the problem. Then, write the code."</i>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=80&color=gradient"/>
+</p>
