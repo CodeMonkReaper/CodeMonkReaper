@@ -2,68 +2,70 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&text=Luis%20Salamanca&fontSize=44&fontAlignY=36&animation=fadeIn"/>
 </p>
 
-<h2 align="center">Backend & Full-Stack Engineer</h2>
+<h2 align="center">Ingeniero en Informática | Desarrollador Fullstack & DevOps</h2>
 <p align="center">
-  <b>Java · Spring Boot · TypeScript · NestJS · PostgreSQL · Docker</b>
+  <b>TypeScript · Java · .NET / C# · NestJS · Spring Boot · PostgreSQL / PostGIS · Docker</b>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/luissalamancafer/">
+  <a href="https://linkedin.com/in/luissalamancafer">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:luis_salamanca@hotmail.cl">
     <img src="https://img.shields.io/badge/Email-luis__salamanca%40hotmail.cl-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/CodeMonkReaper">
-    <img src="https://img.shields.io/github/followers/CodeMonkReaper?style=flat-square&logo=github&label=Seguidores" alt="GitHub Followers"/>
+    <img src="https://img.shields.io/github/followers/CodeMonkReaper?style=flat-square&logo=github&label=Followers" alt="GitHub Followers"/>
   </a>
+  <img src="https://img.shields.io/badge/Status-Programador_Full_Stack_%40_Pymatica-2ea44f?style=flat-square" alt="Current Role"/>
 </p>
 
 ---
 
 ### 📌 Perfil Profesional
 
-Ingeniero de Software enfocado en el desarrollo backend, diseño de arquitecturas modulares y construcción de APIs REST escalables y resilientes. Experiencia práctica implementando servicios con **Java (Spring Boot)** y ecosistemas **Node.js / TypeScript (NestJS, Express)**, optimizando persistencia de datos relacionales en **PostgreSQL** e integrando pipelines de automatización asistidos por IA para acelerar ciclos de entrega con altos estándares de calidad.
+Ingeniero en Informática (Duoc UC) especializado en **desarrollo fullstack con orientación a DevOps y arquitectura de software**. Diseño y construyo aplicaciones web robustas aplicando **Clean Architecture, DDD y SOLID**, con APIs REST desacopladas, pipelines de integración continua (CI/CD) y bases de datos relacionales y geoespaciales de alta integridad.
 
 - 📍 **Ubicación:** Concepción, Chile
-- 🎯 **Enfoque Actual:** Arquitectura limpia (Clean Architecture / Hexagonal), optimización de queries SQL y microservicios orientados a eventos.
+- 💼 **Posición actual:** Programador Full Stack & DevOps en **Pymatica**
+- 🎯 **Enfoque clave:** Sistemas deterministas, tipado estricto end-to-end, testing automatizado y contenerización de servicios.
 
 ---
 
 ### 🛠️ Stack Tecnológico
 
 <p align="left">
-  <b>Backend & Core:</b><br/>
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,nodejs,nestjs,python&theme=dark" alt="Backend Stack"/>
+  <b>Backend & Arquitectura:</b><br/>
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,java,spring,cs,dotnet,py,django&theme=dark" alt="Backend Stack"/>
 </p>
 
 <p align="left">
-  <b>Bases de Datos & DevOps:</b><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,linux,git,github&theme=dark" alt="Database and DevOps"/>
+  <b>Bases de Datos & Infraestructura / DevOps:</b><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,docker,linux,git,githubactions&theme=dark" alt="Database and DevOps"/>
 </p>
 
 <p align="left">
-  <b>Frontend & Herramientas:</b><br/>
-  <img src="https://skillicons.dev/icons?i=angular,js,postman,idea,vscode&theme=dark" alt="Frontend and Tools"/>
+  <b>Frontend, Móvil & Herramientas:</b><br/>
+  <img src="https://skillicons.dev/icons?i=angular,nextjs,react,tailwind,postman,idea,vscode&theme=dark" alt="Frontend and Tools"/>
 </p>
 
 ---
 
 ### 🚀 Proyectos Destacados
 
-| Proyecto | Problema Técnico & Solución | Arquitectura / Stack | Repositorio & Demo |
+| Proyecto | Problema Técnico / Arquitectura | Stack Clave | Enlace |
 | :--- | :--- | :--- | :---: |
-| **SIDEP** *(Gestión de Emergencias)* | Sistema centralizado de despacho y registro operativo en tiempo real para cuerpos de respuesta. Reduce tiempos de reporte y elimina pérdida de trazabilidad administrativa. | Node.js, NestJS, Angular, PostgreSQL, Docker | [Repositorio](https://github.com/CodeMonkReaper) |
-| **GameStore Platform** | Plataforma de catálogo y e-commerce con gestión transaccional, autenticación JWT, roles de usuario y persistencia optimizada con queries indexadas. | Java, Spring Boot, Angular, PostgreSQL | [Repositorio](https://github.com/CodeMonkReaper) |
-| **Automation & AI Suite** | Módulos de automatización de procesos internos e ingesta analítica asistidos por LLMs y scripts en Python para optimizar flujos operativos y reportería. | Python, AI SDKs, REST APIs | [Repositorio](https://github.com/CodeMonkReaper) |
+| **VetBiobío**<br/>*(Plataforma B2B & B2C)* | Monorepo con workspaces y tipado estricto cliente-servidor. Geolocalización geoespacial, auditoría inmutable (`audit_log`), roles multi-tenant, CI automatizado y **189 tests automatizados (100% aprobación)**. | Next.js 14, NestJS 10, PostgreSQL / PostGIS, Prisma, Docker, pnpm | [Ver Repositorio](https://github.com/CodeMonkReaper/vetbiobio) |
+| **MargenClaro**<br/>*(Inteligencia Financiera)* | Motor financiero determinista bajo **Clean Architecture y DDD**. Aritmética decimal de 128 bits y enteros escalados (x10.000) en SQLite (WAL) para eliminar errores de redondeo. Incluye proyector de flujo de caja (13 semanas) y validación de invariantes contables con xUnit. | .NET 8, C# 12, WPF/MVVM, SQLite, Python, xUnit | [Ver Repositorio](https://github.com/CodeMonkReaper) |
+| **SIDEP**<br/>*(Sistema de Emergencias)* | Plataforma integral para despacho y gestión de emergencias operativas. Modelo relacional en 3FN, control de sesiones stateless con JWT y suite de pruebas funcionales para asegurar trazabilidad crítica. | Node.js, Angular, PostgreSQL, REST API, JWT | [Ver Repositorio](https://github.com/CodeMonkReaper) |
 
 ---
 
 ### ⚙️ Estándares de Ingeniería ("Cómo Trabajo")
 
-- **Arquitectura Limpia & Desacoplamiento:** Implementación de controladores delgados, inyección de dependencias estricta y separación de lógica de dominio (Domain-Driven Design básico) para facilitar mantenibilidad y testing unitario.
-- **Eficiencia en Capa de Datos:** Modelado relacional normalizado, transacciones ACID seguras y diseño de índices orientados a los casos de uso críticos para evitar cuellos de botella por latencia.
-- **Entornos Aislados & Despliegue:** Contenedorización de aplicaciones y dependencias con Docker Compose para garantizar reproducibilidad exacta entre entornos de desarrollo, testing y producción.
+- **Arquitectura Limpia & Dominio Aislado:** Desarrollo bajo principios SOLID, separación estricta de capas y lógica de dominio desacoplada del framework/infraestructura, facilitando la testabilidad unitaria y el mantenimiento a largo plazo.
+- **Integridad y Modelado de Datos Riguroso:** Diseño de esquemas relacionales normalizados (3FN), consultas espaciales indexadas (PostGIS), transacciones ACID y persistencia determinista sin errores de precisión numérica.
+- **Cultura DevOps & Testing Exhaustivo:** Flujos de trabajo respaldados por CI/CD, despliegues reproducibles con Docker y suites automatizadas de pruebas (xUnit, E2E y unitarias) que validan invariantes de negocio antes de cada merge.
 
 ---
 
@@ -79,6 +81,14 @@ Ingeniero de Software enfocado en el desarrollo backend, diseño de arquitectura
 </p>
 
 ---
+
+### 📬 Contacto & Oportunidades
+
+Abierto a colaborar en proyectos desafiantes y evaluar roles de **Ingeniero Backend**, **Desarrollador Full Stack** o **DevOps**:
+
+- 💼 **LinkedIn:** [/in/luissalamancafer](https://www.linkedin.com/in/luissalamancafer/)
+- 📧 **Correo Electrónico:** [luis_salamanca@hotmail.cl](mailto:luis_salamanca@hotmail.cl)
+- 🐙 **GitHub:** [@CodeMonkReaper](https://github.com/CodeMonkReaper)
 
 <p align="center">
   <i>"First, solve the problem. Then, write the code."</i>
